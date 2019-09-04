@@ -18,5 +18,5 @@
 
     <!--接口声明-->
     <dubbo:service interface="com.wzw.service.DubboTest" ref="demoService"/>
-    <bean id="demoService" class="com.wzw.demo1.service.impl.DubboTestImpl"/>
+    <bean id="demoService" class="com.wzw.service.impl.DubboTestImpl"/>
 </beans>
