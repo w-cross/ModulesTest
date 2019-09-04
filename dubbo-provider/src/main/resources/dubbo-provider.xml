@@ -11,10 +11,10 @@
     <dubbo:application name="dubbo-demo-provider"/>
 
     <!--dubbo注册地址-->
-    <dubbo:registry address="zookeeper://localhost:2181"/>
+    <dubbo:registry address="zookeeper://127.0.0.1:2181"/>
 
     <!--dubbo协议地址-->
-    <dubbo:protocol name="dubbo" port="20880"/>
+    <dubbo:protocol name="dubbo" port="20881"/>
 
     <!--接口声明-->
     <dubbo:service interface="com.wzw.service.DubboTest" ref="demoService"/>
