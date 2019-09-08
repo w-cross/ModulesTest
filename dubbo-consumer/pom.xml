@@ -13,14 +13,9 @@
 
     <dependencies>
         <dependency>
-            <groupId>com.wzw</groupId>
-            <artifactId>dubbo-provider</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
+            <groupId>com.dubbo</groupId>
+            <artifactId>dubbo-api</artifactId>
+            <version>1.0.0</version>
         </dependency>
-<!--        <dependency>-->
-<!--            <groupId>com.wzw</groupId>-->
-<!--            <artifactId>dubbo-api</artifactId>-->
-<!--            <version>0.0.1-SNAPSHOT</version>-->
-<!--        </dependency>-->
     </dependencies>
 </project>
